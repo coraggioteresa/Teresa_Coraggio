@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: SWAG;
+    src: url(miao.woff);
+}
+
+#Nome{
+	height: 20vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	position: absolute;
+}
+
+#Teresa {
+	text-align: center;
+	font-size: 5vw;
+	color: black;
+	margin-top: 5vh;
+	font-family: SWAG;
+	
+}
+
+.icona {
+	position: absolute;
+	width: 50vw;
+	height: 40vh;
+}
+
+#Musica{
+	left: 0;
+	top: 20vh;
+	
+}
+
+#Film{
+	right: 0;
+	top: 20vh;
+	
+}
+
+#Viaggio{
+	left: 0;
+	bottom: 0vh;
+	
+}
+
+#Foto{
+	right: 0;
+	bottom: 0vh;
+	
+}
+
+.SCAW{
+	position: absolute;
+	top:20vh;
+	width:20vh;
+	left:25vw;
+	transform:translate(-50%,-50%);
+	transition: 0.5s;
+}
+
+#aereo{
+	width:30vh;
+}
+
+#aereo:hover{
+	width: 33vh;
+}
+
+#film{
+	width:25vh;
+}
+
+#film:hover{
+	width: 28vh;
+}
+
+.SCAW:hover{
+	opacity: 0.8;
+	width: 23vh;
+}
+
+#back{
+	opacity:0.8;
+	position:absolute;
+	width:5vh;
+	z-index:1000000;
+    transition:0.3s;
+	left:1vh;
+	top:1vh;
+}
+#back:hover{
+    opacity:0.5;
+	width:6vh;
+}
+	
+#Block{
+	opacity:0.8;
+	position:absolute;
+	width:8vh;
+	height:8vh;
+	top:6vh;
+	transform:translate(-50%,-50%);
+	left:50%;
+	background-image: url(Immagini/Icone/arrow01.jpg);
+	background-size: 8vh 8vh;
+    background-repeat: no-repeat;
+	z-index:1000000;
+	border-radius: 20%;
+	transition:0.3s;
+}
+
+#Block:hover{
+    opacity:0.5;
+	width:9vh;
+	height:9vh;
+	background-size: 9vh 9vh;
+}
+
+.on{
+	opacity:0.5;
+	width:6vh;
+}
+
+
+
+
+
